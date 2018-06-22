@@ -1,2 +1,1 @@
-# ReactNative3
-## Nguyen Minh Duc
+# Nguyen Minh Duc
