@@ -1,0 +1,38 @@
+{
+    "data": [{
+        "id": "ur_vs_fr",
+        "startTime": "Jul 6 2018 - 21:00",
+        "lhs": {
+            "country": "Uruguay",
+            "flag": "res/UR.png"
+        },
+        "rhs": {
+            "country": "France",
+            "flag": "res/FR.png"
+        }
+      },
+      {
+        "id": "bz_vs_bg",
+        "startTime": "Jul 7 2018 - 01:00",
+        "lhs": {
+          "country": "Brazil",
+          "flag": "res/BZ.png"
+        },
+        "rhs": {
+          "country": "Belgium",
+          "flag": "res/BG.png"
+        }
+      },
+      {
+        "id": "ru_vs_cr",
+        "startTime": "Jul 8 2018 - 01:00",
+        "lhs": {
+          "country": "Russia",
+          "flag": "res/RU.png"
+        },
+        "rhs": {
+          "country": "Croatia",
+          "flag": "res/CR.png"
+        }
+      }]
+}

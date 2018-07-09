@@ -44,7 +44,7 @@ const matches = [{
     }
   }];
 
-class App extends Component<Props> {
+class App extends Component {
   render() {
     return (
       <View style={styles.view}>
