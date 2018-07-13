@@ -1,27 +1,29 @@
 import React, {Component} from 'react'
-import {Dimensions, View, Text, StyleSheet, Image} from 'react-native'
+import {Dimensions, View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native'
 
-const windowWidth = Dimensions.get('window').width/2
+const windowWidth = Dimensions.get('window').width
 
 class ComicListItem extends Component {
     state = {  }
     render() {
         return (
-            <View style={styles.container}>
-                <Image style={styles.image} source={{uri: this.props.srcs}}/>
-                <Text style={styles.text}>LOK Comic #7 - Chất béo (P.1)</Text>
-            </View>
+            <TouchableOpacity style={styles.container}>
+                <Image style={styles.image} source={{uri: this.props.comic.photos[0]}}/>
+                <Text style={styles.text} numberOfLines={2}>{this.props.comic.title}</Text>
+            </TouchableOpacity>
         );
     }
 }
 
 const styles = StyleSheet.create({
     container: {
-        height: 200,
-        width: windowWidth
+        height: 220,
+        width: windowWidth / 2 - 2,
+        marginLeft: 2,
+        marginRight: 2
     },
     image: {
-        height: 150
+        height: 180
     },
     text: {
         fontWeight: 'bold',
